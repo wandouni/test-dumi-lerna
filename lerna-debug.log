@@ -7,7 +7,7 @@
 0 silly argv }
 1 notice cli v3.22.1
 2 verbose rootPath /Users/shenni/repository/js/test-dumi-lerna
-3 error FetchError: request to http://npmreg.gzdevops.tsintergy.com/@topology%2fcore failed, reason: connect ENETUNREACH 192.168.1.10:80
+3 error FetchError: request to https://registry.npmjs.org/@topology%2fcore failed, reason: connect ENETUNREACH 192.168.1.10:80
 3 error     at ClientRequest.<anonymous> (/Users/shenni/repository/js/test-dumi-lerna/node_modules/node-fetch-npm/src/index.js:68:14)
 3 error     at ClientRequest.emit (events.js:400:28)
 3 error     at Socket.socketErrorListener (_http_client.js:475:9)

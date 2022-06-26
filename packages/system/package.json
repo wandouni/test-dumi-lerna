@@ -15,7 +15,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://npmreg.gzdevops.tsintergy.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,6 @@
   },
   "bugs": {
     "url": "https://github.com/wandouni/test-dumi-lerna/issues"
-  }
+  },
+  "gitHead": "6f50e6b1b5bbbbfabeb163d7d99d551f6e9bf5da"
 }
