@@ -23,3 +23,6 @@
 # ide
 /.vscode
 /.idea
+
+# node_modules
+packages/*/node_modules
