@@ -5,7 +5,7 @@
   "author": "wandouni <2539419557@qq.com>",
   "homepage": "https://github.com/wandouni/test-dumi-lerna#readme",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "lib/index.js",
   "module": "es/index.js",
   "directories": {
     "lib": "lib",
