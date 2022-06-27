@@ -26,6 +26,6 @@
 
 # node_modules
 packages/*/node_modules
-package/*/es
-package/*/lib
-package/*/dist
+package/*/es/
+package/*/lib/
+package/*/dist/
