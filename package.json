@@ -38,6 +38,7 @@
     "lerna": "^3.22.1",
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.1",
+    "release-it": "^15.1.0",
     "yorkie": "^2.0.0"
   }
 }
