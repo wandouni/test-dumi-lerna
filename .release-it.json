@@ -8,7 +8,7 @@
     "requireCommits": false,
     "addUntrackedFiles": false,
     "commit": true,
-    "commitMessage": "Release ${version}",
+    "commitMessage": "chore(release): Release ${version}",
     "commitArgs": [],
     "tag": true,
     "tagName": null,
@@ -31,7 +31,7 @@
     "timeout": 10
   },
   "github": {
-    "release": false,
+    "release": true,
     "releaseName": "Release ${version}",
     "releaseNotes": null,
     "autoGenerate": false,
@@ -45,16 +45,10 @@
     "skipChecks": false,
     "web": false
   },
-  "gitlab": {
-    "release": false,
-    "releaseName": "Release ${version}",
-    "releaseNotes": null,
-    "milestones": [],
-    "tokenRef": "GITLAB_TOKEN",
-    "tokenHeader": "Private-Token",
-    "certificateAuthorityFile": null,
-    "assets": null,
-    "origin": null,
-    "skipChecks": false
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": "angular",
+      "infile": "CHANGELOG.md"
+    }
   }
 }
